@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url('font/Montserrat.ttf') format('truetype');
+}
+
+body {
+  text-align: center;
+  background-color: lightgrey;
+  font-family: montserrat;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.topbarbutton {
+  background-color: white;
+  color: black;
+  border-radius: 100px;
+  /*border-color: black;*/
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 3px 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  /*opacity: 0.2;*/
+}
+
+.topbarbuttongrey {
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  /*border-color: white;*/
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 3px 10px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  /*opacity: 0.2;*/
+}
